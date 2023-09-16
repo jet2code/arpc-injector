@@ -1,8 +1,10 @@
 const fs = require("fs");
 const readline = require("readline");
+const path = require('path');
 
 const COEFFICIENTS_PATH = './data/coefficients.txt';
 const DIRECTORY_PATH = './data/directory.txt';
+const DATA_PATH = path.join(__dirname, 'data');
 
 const DEFAULT_COEFFICIENTS = {
   red: 0.000650000001769513,
@@ -29,6 +31,10 @@ function logAndPrint(message) {
 }
 
 function init() {
+  if (!fs.existsSync(DATA_PATH)) {
+    fs.mkdirSync(DATA_PATH);
+  }
+
   if (!fs.existsSync(COEFFICIENTS_PATH)) {
     fs.writeFileSync(COEFFICIENTS_PATH, JSON.stringify(DEFAULT_COEFFICIENTS, null, 2));
   }
