@@ -1,3 +1,6 @@
+## Credits
+Special acknowledgment to **Biology2394** for his efforts in discovering MSFS's coefficients and for his work on ARPC.
+
 ## **ATTENTION**
 **PLEASE BACKUP YOUR FLIGHTSIMULATOR.EXE BEFORE PROCEEDING!**
 
