@@ -18,7 +18,7 @@ Special acknowledgment to **Biology2394** for his efforts in discovering MSFS's 
 
 ### MS Store Users:
 #### **CAUTION**
-Some `FlightSimulator.exe's` are encrypted and are unable to be modified. Please read the `log.txt` after running the injector to see if your .exe is encrypted.
+Some `FlightSimulator.exe's` are encrypted and are unable to be modified. Please read the `log.txt` after running the injector to see if your .exe is encrypted. If so, follow the steps [here](https://github.com/jet2code/arpc-injector/issues/1) and try again. 
 
 6. Enter the **FOLDER** where `FlightSimulator.exe` is located (e.g. `C:\Users\YOURUSERNAME\Desktop`). Do NOT include `FlightSimulator.exe` in the path.
 7. Type `2` or `3` then press enter. (`2` recommended)
@@ -27,6 +27,6 @@ Some `FlightSimulator.exe's` are encrypted and are unable to be modified. Please
 ### Errors:
 - **No offsets found:** The offsets contained in `./data/coefficients.txt` were not found in the `FlightSimulator.exe`. The default coefficients are always used on the first run so `FlightSimulator.exe's` that are already modified will not work. Please revert to a default `FlightSimulator.exe` before proceeding.
 
-- **FlightSimulator.exe is encrypted:** Some MS Store installations are encrypted which prevents the injector from working properly. The injector will quit without modifying the .exe. There is no guaranteed solution for obtaining an unencrypted `FlightSimulator.exe`.
+- **FlightSimulator.exe is encrypted:** Some MS Store installations are encrypted which prevents the injector from working properly. Follow the steps [here](https://github.com/jet2code/arpc-injector/issues/1) to unlock your .exe and try again.
 
 - **Injector immediately closes when opening:** Ensure the path set in `directory.txt` contains `FlightSimulator.exe` and that you have permission to read AND modify that path. This is common for users who set their default `WindowsApps/` or `XboxGames/` installation as their injector directory. These folders are heavily protected by Windows and will not grant file system access for the injector, so it is essential you move `FlightSimulator.exe` (with a backup) to Desktop before proceeding.
