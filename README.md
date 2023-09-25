@@ -6,7 +6,7 @@ Special acknowledgment to **Biology2394** for his efforts in discovering MSFS's 
 
 ### Getting Started:
 1. Move `FlightSimulator.exe` from your MSFS installation to your Desktop. (MS store users may have to take ownership of the folder containing the .exe and boot in Safe Mode to do so)
-2. Download `node.js v18.17.1` LTS from [here](https://nodejs.org/en).
+2. Download the latest version of node.js LTS from [here](https://nodejs.org/en).
 3. Open Powershell and `cd` to the extracted `arpc-injector` folder (e.g. `cd desktop/arpc-injector-main`).
 4. Run `node app.js`.
 5. Follow the prompts listed below.
